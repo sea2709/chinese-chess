@@ -8,14 +8,14 @@ TypeScript scaffold with Vitest, strict type checking, and a small [Commander](h
 
 ## Scripts
 
-| Script        | Description                          |
-| ------------- | ------------------------------------ |
-| `npm run ci`  | Typecheck and run tests (used in CI) |
-| `npm run build` | Compile `src/` to `dist/`          |
-| `npm run typecheck` | `tsc --noEmit`                 |
-| `npm test`    | Run Vitest once                      |
-| `npm run test:watch` | Vitest watch mode             |
-| `npm start`   | Run built CLI (`dist/main.js`)       |
+| Script               | Description                          |
+| -------------------- | ------------------------------------ |
+| `npm run ci`         | Typecheck and run tests (used in CI) |
+| `npm run build`      | Compile `src/` to `dist/`            |
+| `npm run typecheck`  | `tsc --noEmit`                       |
+| `npm test`           | Run Vitest once                      |
+| `npm run test:watch` | Vitest watch mode                    |
+| `npm start`          | Run built CLI (`dist/main.js`)       |
 
 ## CLI
 
