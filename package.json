@@ -1,0 +1,28 @@
+{
+  "name": "chinese-chess",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "chinese-chess": "./dist/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "ci": "npm run typecheck && npm run test",
+    "start": "node dist/main.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  },
+  "dependencies": {
+    "commander": "^14.0.0"
+  }
+}
